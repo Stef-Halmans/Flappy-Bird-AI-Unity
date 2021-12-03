@@ -27,8 +27,13 @@ There is also only one output needed, if the bird should jump.
 ## Project
 This project is created with the game engine [Unity](https://unity.com/). It is created with version 2019.3.0a2, but can also probably easily be mutated to a newer version.
 It uses C# for its scripts, which is one of the options in unity.
-We programmed the neural network ourself, just like all the matrix math needed for it. This way we could learn exactly how it works, without using librarys which do this for us.
+We programmed the neural network ourselves, just like all the matrix math needed for it. This way we could learn exactly how it works, without using libraries which do this for us.
 Our neural network is only programmed with one hidden layer, which was easiest for our first program, and also all that was needed to create an AI for a game as simple as flappy bird.
 
 You can create an executable from the unity project, but we also include the program in releases. The program looks like this: 
-![Flappy bird AI](https://github.com/Stef-Halmans/Flappy-Bird-AI-Unity/blob/main/flappy_bird_AI.PNG | width=200)
+<p align="center">
+          
+  <img src="https://github.com/Stef-Halmans/Flappy-Bird-AI-Unity/blob/main/flappy_bird_AI.PNG" alt="flappy bird game" height="500">
+</p>
+
+You can play or pause the simulation, you can restart the simulation with random birds again, you can mutate the current generation instead of waiting until they all die, and you can exit the program. In the top left corner, you can see some statistics. You can see the highest score of this game, the score of the birds of the current generation and the number of the current generation. 
