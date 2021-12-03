@@ -31,4 +31,4 @@ We programmed the neural network ourself, just like all the matrix math needed f
 Our neural network is only programmed with one hidden layer, which was easiest for our first program, and also all that was needed to create an AI for a game as simple as flappy bird.
 
 You can create an executable from the unity project, but we also include the program in releases. The program looks like this: 
-![Flappy bird AI]()./flappy_bird_AI.png
+![Flappy bird AI](https://github.com/Stef-Halmans/Flappy-Bird-AI-Unity/blob/main/flappy_bird_AI.PNG | width=200)
