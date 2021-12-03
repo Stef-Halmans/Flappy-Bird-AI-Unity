@@ -27,4 +27,8 @@ There is also only one output needed, if the bird should jump.
 ## Project
 This project is created with the game engine [Unity](https://unity.com/). It is created with version 2019.3.0a2, but can also probably easily be mutated to a newer version.
 It uses C# for its scripts, which is one of the options in unity.
+We programmed the neural network ourself, just like all the matrix math needed for it. This way we could learn exactly how it works, without using librarys which do this for us.
+Our neural network is only programmed with one hidden layer, which was easiest for our first program, and also all that was needed to create an AI for a game as simple as flappy bird.
 
+You can create an executable from the unity project, but we also include the program in releases. The program looks like this: 
+![Flappy bird AI]()./flappy_bird_AI.png
